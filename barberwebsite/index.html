@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universal Barber Studio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div id="header">
+      <div class="logo">
+        <i class="fas fa-scissors"></i>
+        <h4>BARBER</h4>
+      </div>
+
+      <!-- Navigation Menu -->
+      <nav id="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#testimonial">Testimonial</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times close-menu" onclick="closeNav()"></i>
+        </ul>
+      </nav>
+
+      <!-- Hamburger Menu -->
+      <div class="menu-icon">
+        <i class="fas fa-bars" onclick="openNav()"></i>
+      </div>
+    </div>
+
+    <div class="hero-content">
+      <h1>Universal <i>HAIR</i> Studio</h1>
+      <p>A Man's Makeup Is Hair Style</p>
+      <div class="buttons">
+        <button type="button" class="btn">Find Out</button>
+        <button type="button" class="btn">Read More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h4 class="section-title">FEATURES</h4>
+    <h2 class="section-subtitle">Why Choose Us</h2>
+
+    <div class="features-row">
+      <div class="features-col">
+        <div class="feature-box">
+          <h3>Experienced Staff</h3>
+          <div class="feature-content">
+            <i class="fas fa-user-tie feature-icon"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore dolor aliquam quidem con</p>
+          </div>
+        </div>
+
+        <div class="feature-box">
+          <h3>Affordable Cost</h3>
+          <div class="feature-content">
+            <i class="fas fa-dollar-sign feature-icon"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore dolor aliquam quidem con</p>
+          </div>
+        </div>
+
+        <div class="feature-box">
+          <h3>Pre Booking Online</h3>
+          <div class="feature-content">
+            <i class="fas fa-check feature-icon"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore dolor aliquam quidem con</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="features-col">
+        <img src="assets/masoko.jpg" alt="Barber Shop" class="feature-image">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h4 class="section-title">SERVICES</h4>
+    <h2 class="section-subtitle">We Provide Better</h2>
+
+    <ul class="services-grid">
+      <li class="service-item">
+        <img src="assets/images_1.jpg" alt="Beard Grooming">
+        <div class="service-overlay">
+          <h3>Beard Grooming</h3>
+          <p>Expert beard trimming, shaping, and lining services designed to enhance your facial structure.</p>
+        </div>
+      </li>
+      <li class="service-item">
+        <img src="assets/images_2.jpg" alt="Hair Coloring">
+        <div class="service-overlay">
+          <h3>Hair Coloring</h3>
+          <p>High-quality hair coloring and grey coverage for vibrant, natural, long-lasting results.</p>
+        </div>
+      </li>
+      <li class="service-item">
+        <img src="assets/images_4.jpg" alt="Haircut & Styling">
+        <div class="service-overlay">
+          <h3>Haircut & Styling</h3>
+          <p>Professional haircuts tailored to your face shape and personal style.</p>
+        </div>
+      </li>
+      <li class="service-item">
+        <img src="assets/images_6.jpg" alt="Facial & Massage">
+        <div class="service-overlay">
+          <h3>Facial & Head Massage</h3>
+          <p>Relaxing treatments that rejuvenate skin and relieve stress.</p>
+        </div>
+      </li>
+      <li class="service-item">
+        <img src="assets/images.jpg" alt="Shaving Services">
+        <div class="service-overlay">
+          <h3>Shaving Services</h3>
+          <p>Traditional hot towel shave with premium creams for maximum comfort.</p>
+        </div>
+      </li>
+      <li class="service-item">
+        <img src="assets/images_5.jpg" alt="Kids Haircuts">
+        <div class="service-overlay">
+          <h3>Kids Haircuts</h3>
+          <p>Friendly and patient haircut services for kids in a comfortable environment.</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonial">
+    <h4 class="section-title">TESTIMONIAL</h4>
+    <h2 class="section-subtitle">What Client Says</h2>
+    
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-header">
+          <div class="testimonial-image">
+            <img src="assets/godaz.jpg" alt="Godaz Tee">
+          </div>
+          <div class="testimonial-info">
+            <h3>GODAZ TEE <i class="fab fa-twitter"></i></h3>
+            <span>@godaztee</span>
+          </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quod nihil, inventore perspiciatis animi ipsa minima.</p>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-header">
+          <div class="testimonial-image">
+            <img src="assets/nasty.jpg" alt="Nasty C">
+          </div>
+          <div class="testimonial-info">
+            <h3>NASTY C <i class="fab fa-twitter"></i></h3>
+            <span>@nastyc</span>
+          </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolorem enim praesentium expedita repellat ut dolore labore.</p>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-header">
+          <div class="testimonial-image">
+            <img src="assets/masoko.jpg" alt="Kury Masoko">
+          </div>
+          <div class="testimonial-info">
+            <h3>KURY MASOKO <i class="fab fa-twitter"></i></h3>
+            <span>@masokot</span>
+          </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi corrupti molestiae, non ut consequatur eum illum magni.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h4 class="section-title">CONTACT</h4>
+    <h2 class="section-subtitle">Visit Shop Today</h2>
+
+    <div class="contact-row">
+      <div class="contact-info">
+        <h3>Opening Hours</h3>
+        <p><i class="fas fa-clock"></i> Monday to Friday - 9am to 9pm</p>
+        <p><i class="fas fa-clock"></i> Saturday & Sunday - 8am to 11pm</p>
+      </div>
+
+      <div class="contact-info right">
+        <h3>Get In Touch</h3>
+        <p><i class="fas fa-map-marker-alt"></i> #567 corner Robertson Avenue, Pretoria</p>
+        <p><i class="fas fa-paper-plane"></i> universalbarber@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +91 344 8994</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="social-icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
+    <p class="copyright">Copyright &copy; 2026 Universal Barber by Godaz</p>
+  </footer>
+
+  <script>
+    const navBar = document.getElementById("navbar");
+
+    function openNav() {
+      navBar.style.right = "0";
+    }
+
+    function closeNav() {
+      navBar.style.right = "-280px";
+    }
+  </script>
+</body>
+</html>
